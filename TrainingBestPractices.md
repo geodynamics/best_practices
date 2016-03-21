@@ -87,7 +87,7 @@ Instructors should describe what participants need to know or do in advance of t
   Five days is usually too short to make significant progress and more than ten days would be physically exhausting.
 * Start with everyone introducing themselves and what their goals are for the hackathon.
   Identify experienced developers who can mentor others. This fosters more exchange among the participants by letting them know who to ask (other than the primary developers) in case of questions.
-* Provide a brief introduction to git, guthub, …, how to submit patches, and how the patch review process will work.
+* Provide a brief introduction to git, github, …, how to submit patches, and how the patch review process will work.
 * Identify key people who will be responsible for reviewing code and accepting pull requests
 * At random times during the hackathon, encourage participants to show images, movies, and other results that they have obtained using the functionality they just implemented.
 * Begin each day with a session in which each person has a few minutes to outline what they achieved the previous day and what they intend to work on that day. 
