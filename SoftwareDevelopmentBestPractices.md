@@ -36,6 +36,7 @@ This document has three parts:
 1. Version control
   1. Differentiation between maintenance (bug fixes) and new development. 
   2. Source tree limited to files necessary to build software and documentation and run small verification tests.
+
 2. Coding
   1. User-friendly specification of parameters (e.g., graphical user interfaces, human readable parameter files) outside of source code/specified at run time
   2. Development plan (updated yearly) with prioritization of new features and estimated timetable for their implementation
@@ -55,19 +56,22 @@ This document has three parts:
   6. Scalability
 	 1. Use of distributed/parallel data structures
 	 2. Messages used to transfer information (e.g., MPI) instead of filesystem
+
 3. Portability, configuration, and building
   1. Verification that dependencies are available and usable.
   2. Automation and portability of configuration and building.
   3. Output all configuration and build options during runtime (e.g. commit id, compiler options, checksum) to facilitate reproducibility.
+
 4. Testing
   1. Code includes pass/fail tests that verify it runs properly.
+
 5. Documentation
   1. User documentation: workflow for research use.
   2. Developer documentation: description of how to extend code in anticipated ways.
+
 6. User workflow
   1. Running different simulations does not require rebuilding.
   2. User specified directories and filenames for input and output.
-
   3. Use of standard binary file formats (e.g., NetCDF, HDF5).
   4. Citation for code version.
 
@@ -78,7 +82,9 @@ This document has three parts:
 1. Version control
   1. New features added in separate branches.
   2. Stable development (master) branches for rapid release of new features.
+
 2. Coding
+
   Standard Best Practices plus
     1. Functionality implemented as a library rather than an application
 	  1. Leverage alternative implementations via plugins.
@@ -88,18 +94,23 @@ This document has three parts:
 	3. Scalability
 	  1. Parallel access to inputs and outputs (e.g., HDF5).
 	4. Checkpointing.
+
 3. Portability, configuration, and building
+
   Standard Best Practices plus
     1. User can select compilers, optimization, additional build flags during configuration without modifying files under version control.
 	2. Permit multiple builds using the same source tree.
 	3. Software can be installed to a central location.
+
 4. Testing
     1. Pass/fail unit testing for code verification at a fine grain level.
     2. Method of Manufactured Solutions for code verification at a coarse grain level.
-5. Documentation 
+5. Documentation
+
   Standard Best Practices plus
     1. Guidelines on parameter scales/combinations for which code is designed/tested.
     2. FAQs or knowledge base.
 6. User workflow
+
   Standard Best Practices plus
     1. Reproducibility via archiving of workflow.
