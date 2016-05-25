@@ -45,7 +45,7 @@ This document has three parts:
   4. Modular design
 	 1. Balance use of external libraries (e.g., PETSc) to maximize reuse while minimizing dependencies and maintenance
 	 2. Allow users to extend code (new features or alternative implementations) without destroying original functionality or modifying main branch.
-	   :TODO: Create an example in GitHub illustrating various ways to implement “plugins”
+	   _:TODO:_ Example in GitHub illustrating various ways to implement “plugins”
 	   1. Wolfgang (ASPECT method)
 	   2. Jed (PETSc method)
 	   3. Brad (Pyre method)
