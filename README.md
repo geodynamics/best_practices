@@ -1,6 +1,6 @@
 # Software development and training best practices.
 
-* [Software Development Best Practices](SoftareDevelopmentBestPractices.md)
+* [Software Development Best Practices](SoftwareDevelopmentBestPractices.md)
 
   *Minimum, Standard, and Target best practices related to development of scientific software.*
 
