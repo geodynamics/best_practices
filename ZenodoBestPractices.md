@@ -5,7 +5,7 @@ zenodo.org
 CIG recommends that all developers and researchers obtain DOI's (digital object identifiers) for all of their research products.  This includes software, observational, and model data.
 
 You may use your github account or orcid account as login.
-"
+
 CIG maintains a zenodo community.  Search for: Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
 
 ## Executive Summary
@@ -17,7 +17,7 @@ This document has three parts:
 
 ## Things You Should Know
 
-Once you files have been uploaded and assigned a DOI it CANNOT BE CHANGED. You will not be able to add more files or edit the existing files in the repository.
+Once your files have been uploaded and assigned a DOI it CANNOT BE CHANGED. You will not be able to add more files or edit the existing files.
 
 You CAN edit the metadata.
 
@@ -27,19 +27,19 @@ By creating a webhook into your repository, a zenodo entry will automatically be
 
 Please see the github guide: https://guides.github.com/activities/citable-code/
 
-Assign metadata using the guidelines below
+Assign metadata using the guidelines below.
 
 ## Manual Upload
 
 1. **Login**
-* Use your GitHub or ORCID account or create a new login.
+* Use your GitHub or ORCID account or create a new login. Using GitHub will automatically associate it with your repository.
 2. **Upload**
 * Click on "Upload" on the browser header (between search bar and *Communities*).
 * Click on "New Upload" - green button on upper right hand side of window.
 Note that your previous data packages are also shown. You can select these and edit their metadata.
 3. Drag and drop your files into the window or choose files as directed.
 
-See next section on Metadata
+See next section on Metadata.
 
 ## Metadata
 
@@ -48,8 +48,10 @@ Please use the following guidelines when assigning metadata.
 1. **Upload type**
 * Please assign "software" to all github releases.  There is a known BUG in the the display of this metadata field when viewing. In the citation field, this displays as "Data Set". Zenodo promises it will be fixed in the next release.
 2. **Basic Information**
+* Add the mandatory data.
 * Reserve a DOI only when you are sure you are not changing, adding or deleting to the uploaded files.
 * Description.  Please add an informative description of the software and changes to this release.  This is what the user will see.
+* Additional Notes. Add acknowledgements including funding here.
 3. **License**
 * All CIG codes are "Open Access"
 * Please search for the correct "License". Most CIG codes are "GNU General Pubic License 2.0"
