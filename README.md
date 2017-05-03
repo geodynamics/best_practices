@@ -12,6 +12,6 @@
 
 * [Zenodo Best Practices](ZenodoBestPractices.md)
 
-*Best practices for obtaining a DOI from zenodo*
+  *Best practices for obtaining a DOI from zenodo*
 
 

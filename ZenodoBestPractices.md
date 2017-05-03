@@ -6,7 +6,7 @@ CIG recommends that all developers and researchers obtain DOI's (digital object 
 
 You may use your github account or orcid account as login.
 
-CIG maintains a zenodo community.  Search for: Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
+CIG maintains a zenodo community.  Search for: "Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
 
 ## Executive Summary
 
@@ -54,7 +54,7 @@ Please use the following guidelines when assigning metadata.
 * Additional Notes. Add acknowledgements including funding here.
 3. **License**
 * All CIG codes are "Open Access"
-* Please search for the correct "License". Most CIG codes are "GNU General Pubic License 2.0"
+* Please search for the correct "License". Most CIG codes are "GNU General Pubic License 2.0".
 4. **Communities**
 * Please assign the community "Computational Infrastructure for Geodynamics". Sometimes you need to type in most of the string before zenodo finds it.
 5. **Funding**
