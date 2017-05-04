@@ -10,3 +10,8 @@
 
   *Best practices for tutorials and hackathons for training users.*
 
+* [Zenodo Best Practices](ZenodoBestPractices.md)
+
+  *Best practices for obtaining a DOI from zenodo*
+
+
