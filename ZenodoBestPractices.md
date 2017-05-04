@@ -2,11 +2,11 @@
 
 zenodo.org
 
-CIG recommends that all developers and researchers obtain DOI's (digital object identifiers) for all of their research products.  This includes software, observational, and model data.
+CIG recommends that all developers and researchers obtain DOI's (digital object identifiers) for all of their research products.  This includes software, and observational and model data.
 
 You may use your github account or orcid account as login.
 
-CIG maintains a zenodo community.  Search for: "Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
+CIG maintains a zenodo community at https://zenodo.org/communities/geodynamics.  Search for: "Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
 
 ## Executive Summary
 
@@ -17,7 +17,7 @@ This document has three parts:
 
 ## Things You Should Know
 
-Once your files have been uploaded and assigned a DOI it CANNOT BE CHANGED. You will not be able to add more files or edit the existing files.
+Once your files have been uploaded and assigned a DOI the submission CANNOT BE CHANGED. You will not be able to add more files or edit the existing files.
 
 You CAN edit the metadata.
 
