@@ -8,6 +8,9 @@ You may use your github account or orcid account as login.
 
 CIG maintains a zenodo community at https://zenodo.org/communities/geodynamics.  Search for: "Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
 
+Update: zenodo began supporting versioning on May 30, 2078. Please see their blog post and FAQs for more information.
+* http://blog.zenodo.org/2017/05/30/doi-versioning-launched/
+
 ## Executive Summary
 
 This document has three parts:
@@ -34,9 +37,15 @@ Assign metadata using the guidelines below.
 1. **Login**
 * Use your GitHub or ORCID account or create a new login. Using GitHub will automatically associate it with your repository.
 2. **Upload**
+
 * Click on "Upload" on the browser header (between search bar and *Communities*).
-* Click on "New Upload" - green button on upper right hand side of window.
-Note that your previous data packages are also shown. You can select these and edit their metadata.
+
+
+* **New Package.** Click on "New Upload" - green button on upper right hand side of window.
+* **Versioning a Package.** Select the package from your Uploads directory. Click on "New Version"
+
+At any time, you can select an uploaded package and edit its metadata. However, you CANNOT change the package's files without creating a new version.
+
 3. Drag and drop your files into the window or choose files as directed.
 
 See next section on Metadata.
