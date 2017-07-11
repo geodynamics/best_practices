@@ -8,7 +8,7 @@ You may use your github account or orcid account as login.
 
 CIG maintains a zenodo community at https://zenodo.org/communities/geodynamics.  Search for: "Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
 
-Update: zenodo began supporting versioning on May 30, 2078. Please see their blog post and FAQs for more information.
+Update: zenodo began supporting versioning on May 30, 2018. Please see their blog post and FAQs for more information.
 * http://blog.zenodo.org/2017/05/30/doi-versioning-launched/
 
 ## Executive Summary
