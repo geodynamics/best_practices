@@ -26,7 +26,7 @@ You CAN edit the metadata.
 
 ## Creating Web Hooks
  
-By creating a webhook into your repository, a zenodo entry will automatically be created with each new release.
+By creating a webhook into your repository, a zenodo entry will automatically be created with each new release. If versioned from a previous entry, the versions will be automatically associated. HOWEVER, you will still need to assign it to the CIG community.
 
 Please see the github guide: https://guides.github.com/activities/citable-code/
 
