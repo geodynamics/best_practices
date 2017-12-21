@@ -36,6 +36,10 @@ Please see the github guide: https://guides.github.com/activities/citable-code/
 
 Assign metadata using the guidelines below.
 
+Metadata assignment can be overridden using a .zenodo.json file. This feature has not been officially released.
+
+Please check records to ensure that metadata is correct.
+
 ## Manual Upload
 
 1. **Login**
@@ -63,6 +67,7 @@ Please use the following guidelines when assigning metadata.
 2. **Basic Information**
 * Add the mandatory data.
 * Reserve a DOI only when you are sure you are not changing, adding or deleting to the uploaded files.
+* Authors. WEBHOOK USERS: When generating a zenodo release using a webhook, the default is to assign all commit'ers as authors.  Default behaviors can be overridden using .zenodo.json file in the main directory. See PyLith and ASPECT for examples.
 * Description.  Please add an informative description of the software and changes to this release.  This is what the user will see.
 * Additional Notes. Add acknowledgements including funding here.
 3. **License**
@@ -71,8 +76,7 @@ Please use the following guidelines when assigning metadata.
 4. **Communities**
 * Please assign the community "Computational Infrastructure for Geodynamics". Sometimes you need to type in most of the string before zenodo finds it.
 5. **Funding**
-* If you are FP7 and Horizon 2020, your grant will be available here. If not, add funding acknowledgements in *Additional Notes*.
-Addition of NSF grants is a feature coming soon!
+* Choose from pick list of European and Australian funding agencies and NSF to add funding acknowledgements. If your grant is not listed, add it in *Additional Notes*.
 6. **Related/alternate identifiers**
 *  Add geodyanmics.org/software/*CodeName* as "references this upload"
 * Add the github repo e.g. https://github.com/geodynamics/aspect/tree/v1.5.0 as "is a supplement to this upload"
