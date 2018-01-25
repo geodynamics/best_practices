@@ -43,20 +43,20 @@ Please check records to ensure that metadata is correct.
 ## Manual Upload
 
 1. **Login**
-* Use your GitHub or ORCID account or create a new login. Using GitHub will automatically associate it with your repository.
-2. **Upload**
-
-* Click on "Upload" on the browser header (between search bar and *Communities*).
-
-
-* **New Package.** Click on "New Upload" - green button on upper right hand side of window.
-* **Versioning a Package.** Select the package from your Uploads directory. Click on "New Version"
+   * Use your GitHub or ORCID account or create a new login. Using GitHub will automatically associate it with your repository.
+2. **Create**
+   * Click on "Upload" on the browser header (between search bar and *Communities*).
+   1. _**Adding a New Package**_
+      * Click on the "New Upload" button on upper right hand side of the page.
+   2. _**Adding a New Version to an Existing Package**_
+      * Select the package from your Uploads directory. Click on "New Version".
 
 At any time, you can select an uploaded package and edit its metadata. However, you CANNOT change the package's files without creating a new version.
 
-3. Drag and drop your files into the window or choose files as directed.
+3. **Upload**
+   * Drag and drop your files into the window or choose files as directed.
 
-See next section on Metadata.
+Then proceed to the Metadata section.
 
 ## Metadata
 
