@@ -1,6 +1,6 @@
 # Zenodo Best Practices for the CIG Community
 
-zenodo.org
+[zenodo.org](https://zenodo.org)
 
 CIG recommends that all developers and researchers obtain DOI's (digital object identifiers) for all of their research products.  This includes software, and observational and model data.
 
