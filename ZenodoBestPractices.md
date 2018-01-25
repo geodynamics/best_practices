@@ -89,4 +89,7 @@ Please use the following guidelines when assigning metadata.
  
 When you are ready do not forget to **Publish** or just remember to **Save** your work.
 
+Once you have published the release to Zenodo, a new DOI will be minted. Don't forget to add the DOI to the GitHub release!
+* Clicking on the DOI badge on the Zenodo page will present copiable Markdown text (and other formats) that can be placed in the GitHub release text to display the badge on GitHub.
+
 Please feel free to add to these instructions.
