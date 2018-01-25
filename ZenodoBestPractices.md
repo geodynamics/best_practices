@@ -63,29 +63,29 @@ See next section on Metadata.
 Please use the following guidelines when assigning metadata. 
 
 1. **Upload type**
-* Please assign "software" to all github releases.  There is a known BUG in the the display of this metadata field when viewing. In the citation field, this displays as "Data Set". Zenodo promises it will be fixed in the next release.
+   * Please assign "software" to all github releases.  There is a known BUG in the the display of this metadata field when viewing. In the citation field, this displays as "Data Set". Zenodo promises it will be fixed in the next release.
 2. **Basic Information**
-* Add the mandatory data.
-* Reserve a DOI only when you are sure you are not changing, adding or deleting to the uploaded files.
-* Authors. WEBHOOK USERS: When generating a zenodo release using a webhook, the default is to assign all commit'ers as authors.  Default behaviors can be overridden using .zenodo.json file in the main directory. See PyLith and ASPECT for examples.
-* Description.  Please add an informative description of the software and changes to this release.  This is what the user will see.
-* Additional Notes. Add acknowledgements including funding here.
+   * Add the mandatory data.
+   * Reserve a DOI only when you are sure you are not changing, adding or deleting to the uploaded files.
+   * Authors. WEBHOOK USERS: When generating a zenodo release using a webhook, the default is to assign all commit'ers as authors.  Default behaviors can be overridden using .zenodo.json file in the main directory. See PyLith and ASPECT for examples.
+   * Description.  Please add an informative description of the software and changes to this release.  This is what the user will see.
+   * Additional Notes. Add acknowledgements including funding here.
 3. **License**
-* All CIG codes are "Open Access"
-* Please search for the correct "License". Most CIG codes are "GNU General Pubic License 2.0".
+   * All CIG codes are "Open Access"
+   * Please search for the correct "License". Most CIG codes are "GNU General Pubic License 2.0".
 4. **Communities**
-* Please assign the community "Computational Infrastructure for Geodynamics". Sometimes you need to type in most of the string before zenodo finds it.
+   * Please assign the community "Computational Infrastructure for Geodynamics". Sometimes you need to type in most of the string before zenodo finds it.
 5. **Funding**
-* Choose from pick list of European and Australian funding agencies and NSF to add funding acknowledgements. If your grant is not listed, add it in *Additional Notes*.
+   * Choose from pick list of European and Australian funding agencies and NSF to add funding acknowledgements. If your grant is not listed, add it in *Additional Notes*.
 6. **Related/alternate identifiers**
-*  Add geodyanmics.org/software/*CodeName* as "references this upload"
-* Add the github repo e.g. https://github.com/geodynamics/aspect/tree/v1.5.0 as "is a supplement to this upload"
+   * Add geodyanmics.org/software/*CodeName* as "references this upload"
+   * Add the github repo e.g. https://github.com/geodynamics/aspect/tree/v1.5.0 as "is a supplement to this upload"
 7. **Contributors**
-* Please don't forget to acknowledge others who contributed to this research product.
+   * Please don't forget to acknowledge others who contributed to this research product.
 8. **References**
-* Add references you want users to cite here.
+   * Add references you want users to cite here.
 9. **Journal, Conference, Book/Report/Chapter, Thesis**
-* If this research product is part of one of the above, add the reference here.
+   * If this research product is part of one of the above, add the reference here.
  
 When you are ready do not forget to **Publish** or just remember to **Save** your work.
 
