@@ -12,21 +12,21 @@ This document has three parts:
 *Practices that codes must follow in order to be accepted by CIG.*
 
 1. **Licensing**
-  1. Open source license (list recommendations) GPL, MIT, BSD?
+    1. Open source license (list recommendations) GPL, MIT, BSD?
 2. **Version control**
-  1. Use of version control (e.g., subversion, git) to manage code changes
+    1. Use of version control (e.g., subversion, git) to manage code changes
 3. **Portability, configuration, and building**
-  1. Code builds on Unix-like machines (Linux, Darwin) with free tools (compilers)
-  2. Well designed, portable build system (e.g. cmake, make, configure-unix only, setup.py, etc.)
+    1. Code builds on Unix-like machines (Linux, Darwin) with free tools (compilers)
+    2. Well designed, portable build system (e.g. cmake, make, configure-unix only, setup.py, etc.)
 4. **Testing**
-  1. Code includes tests to verify that it runs properly.
-  2. Results of accuracy and/or performance benchmarks if established by the research community.
+    1. Code includes tests to verify that it runs properly.
+    2. Results of accuracy and/or performance benchmarks if established by the research community.
 5. **Documentation**
-  1. Instructions for building and installing the code.
-  2. Description of all parameters including units (if dimensionless, specify scaling used).
-  3. Explanation of physics the code simulates.
-  4. Illustration of how to use the code to solve scientific problems.
-  5. Cookbook examples with sample, editable input files.
+    1. Instructions for building and installing the code.
+    2. Description of all parameters including units (if dimensionless, specify scaling used).
+    3. Explanation of physics the code simulates.
+    4. Illustration of how to use the code to solve scientific problems.
+    5. Cookbook examples with sample, editable input files.
 6. **Citable publication**
 
 ## Standard Best Practices
@@ -34,75 +34,71 @@ This document has three parts:
 *Practices in addition to the Minimum Best Practices that should be used by all codes developed within the CIG community. Codes not meeting all standards should be actively working to eliminate deficiencies.*
 
 1. **Version control**
-  1. Differentiation between maintenance (bug fixes) and new development. 
-  2. Source tree limited to files necessary to build software and documentation and run small verification tests.
+    1. Differentiation between maintenance (bug fixes) and new development. 
+    2. Source tree limited to files necessary to build software and documentation and run small verification tests.
 2. **Coding**
-  1. User-friendly specification of parameters (e.g., graphical user interfaces, human readable parameter files) outside of source code/specified at run time
-  2. Development plan (updated yearly) with prioritization of new features and estimated timetable for their implementation
-  3. Comments in code describing:
-	  1. Algorithms with appropriate references
-	  2. Purpose of functions, objects, etc. and descriptions of arguments (inputs / outputs), groups of objects, and tutorials
-  4. Modular design
-	 1. Balance use of external libraries (e.g., PETSc) to maximize reuse while minimizing dependencies and maintenance
-	 2. Allow users to extend code (new features or alternative implementations) without destroying original functionality or modifying main branch.
+    1. User-friendly specification of parameters (e.g., graphical user interfaces, human readable parameter files) outside of source code/specified at run time
+    2. Development plan (updated yearly) with prioritization of new features and estimated timetable for their implementation
+    3. Comments in code describing:
+        1. Algorithms with appropriate references
+        2. Purpose of functions, objects, etc. and descriptions of arguments (inputs / outputs), groups of objects, and tutorials
+    4. Modular design
+        1. Balance use of external libraries (e.g., PETSc) to maximize reuse while minimizing dependencies and maintenance
+        2. Allow users to extend code (new features or alternative implementations) without destroying original functionality or modifying main branch.
 	   _:TODO:_ Example in GitHub illustrating various ways to implement “plugins”
-	   1. Wolfgang (ASPECT method)
-	   2. Jed (PETSc method)
-	   3. Brad (Pyre method)
-  5. Error trapping
-	 1. User errors should result in a message that helps the user correct the problem. User errors should not result in a crash.
-	 2. Internal errors are generally bugs (or unintended uses). Ideally consistency checks will catch internal errors and generate an error message that helps the developer fix the problem.
-  6. Scalability
-	 1. Use of distributed/parallel data structures
-	 2. Messages used to transfer information (e.g., MPI) instead of filesystem
+            1. Wolfgang (ASPECT method)
+            2. Jed (PETSc method)
+            3. Brad (Pyre method)
+    5. Error trapping
+        1. User errors should result in a message that helps the user correct the problem. User errors should not result in a crash.
+        2. Internal errors are generally bugs (or unintended uses). Ideally consistency checks will catch internal errors and generate an error message that helps the developer fix the problem.
+    6. Scalability
+        1. Use of distributed/parallel data structures
+        2. Messages used to transfer information (e.g., MPI) instead of filesystem
 3. **Portability, configuration, and building**
-  1. Verification that dependencies are available and usable.
-  2. Automation and portability of configuration and building.
-  3. Output all configuration and build options during runtime (e.g. commit id, compiler options, checksum) to facilitate reproducibility.
+    1. Verification that dependencies are available and usable.
+    2. Automation and portability of configuration and building.
+    3. Output all configuration and build options during runtime (e.g. commit id, compiler options, checksum) to facilitate reproducibility.
 4. **Testing**
-  1. Code includes pass/fail tests that verify it runs properly.
+    1. Code includes pass/fail tests that verify it runs properly.
 5. **Documentation**
-  1. User documentation: workflow for research use.
-  2. Developer documentation: description of how to extend code in anticipated ways.
+    1. User documentation: workflow for research use.
+    2. Developer documentation: description of how to extend code in anticipated ways.
 6. **User workflow**
-  1. Running different simulations does not require rebuilding.
-  2. User specified directories and filenames for input and output.
-  3. Use of standard binary file formats (e.g., NetCDF, HDF5).
-  4. Citation for code version.
+    1. Running different simulations does not require rebuilding.
+    2. User specified directories and filenames for input and output.
+    3. Use of standard binary file formats (e.g., NetCDF, HDF5).
+    4. Citation for code version.
 
 ## Target Best Practices
 
 *Desirable practices that developers should consider in defining long-term development priorities for codes developed within the CIG community. These go beyond the “Standard Best Practices”, so they tend to be more important for long-term projects.*
 
 1. **Version control**
-  1. New features added in separate branches.
-  2. Stable development (master) branches for rapid release of new features.
+    1. New features added in separate branches.
+    2. Stable development (master) branches for rapid release of new features.
 2. **Coding**
-
   Standard Best Practices plus
     1. Functionality implemented as a library rather than an application
-	  1. Leverage alternative implementations via plugins.
-	  2. Extend library features in applications without modifying original code.
-	  3. Construct higher level applications using libraries as building blocks.
-	2. Output of provenance information (parameters used).
-	3. Scalability
-	  1. Parallel access to inputs and outputs (e.g., HDF5).
-	4. Checkpointing.
+        1. Leverage alternative implementations via plugins.
+        2. Extend library features in applications without modifying original code.
+        3. Construct higher level applications using libraries as building blocks.
+    2. Output of provenance information (parameters used).
+    3. Scalability
+        1. Parallel access to inputs and outputs (e.g., HDF5).
+    4. Checkpointing.
 3. **Portability, configuration, and building**
-
   Standard Best Practices plus
     1. User can select compilers, optimization, additional build flags during configuration without modifying files under version control.
-	2. Permit multiple builds using the same source tree.
-	3. Software can be installed to a central location.
+        2. Permit multiple builds using the same source tree.
+        3. Software can be installed to a central location.
 4. **Testing**
     1. Pass/fail unit testing for code verification at a fine grain level.
     2. Method of Manufactured Solutions for code verification at a coarse grain level.
 5. **Documentation**
-
   Standard Best Practices plus
     1. Guidelines on parameter scales/combinations for which code is designed/tested.
     2. FAQs or knowledge base.
 6. **User workflow**
-
   Standard Best Practices plus
     1. Reproducibility via archiving of workflow.
