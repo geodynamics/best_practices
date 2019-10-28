@@ -22,11 +22,11 @@ This document has five parts:
 
 ## Things You Should Know
 
-Once your files have been uploaded and Publish'ed, the submission CANNOT BE CHANGED. You will not be able to add more files or edit the existing files. Save the record instead if you might upload additional files.
+Once your files have been uploaded and _Publish_'ed, the submission CANNOT BE CHANGED. You will not be able to add more files or edit the existing files. Save the record instead if you might upload additional files.
 
 You CAN still edit the metadata after Publishing.
 
-If you embed the software DOI in the documentation (_recommended_), you can reserve a DOI.  On the upload page under Basic Information and Digital Object Identifier click the _Reserve DOI_ button. This will not register the DOI, nor will it publish your record so you can still update the files. See Zenodo FAQs under _General_ for more information: [help.zenodo.org](https://help.zenodo.org/)
+If you embed the software DOI in the documentation (_recommended_), you can reserve a DOI before publishing.  On the upload page under Basic Information and Digital Object Identifier click the _Reserve DOI_ button. This will not register the DOI, nor will it publish your record so you can still update the files in your repository. See Zenodo FAQs under _General_ for more information: [help.zenodo.org](https://help.zenodo.org/)
 
 
 Don't forget to add the DOI to the GitHub release!
@@ -39,7 +39,7 @@ By creating a webhook into your repository, a zenodo entry will automatically be
 You will still need to:
 * Assign your code to the CIG community.
 * Check your authors lists especially if all committers are not considered authors for your project.
-* If you embed the software DOI into your documentation, you must reserve the DOI first, update your documentation, and then create the release.
+* If you embed the software DOI into your documentation, DO NOT USE this feature in conjunction with _Reserve DOI_.
 
 Please see the github guide: https://guides.github.com/activities/citable-code/
 
