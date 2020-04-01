@@ -6,6 +6,10 @@
 
   [Summary Table](SoftwareDevelopmentBestPracticesTable.md)
 
+* [Contributing Software Checklist](ContributingChecklist.md)
+
+  *Checklist for developers considering contributing code to CIG.*
+
 * [Training Best Practices](TrainingBestPractices.md)
 
   *Best practices for tutorials and hackathons for training users.*
