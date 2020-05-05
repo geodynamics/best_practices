@@ -1,4 +1,4 @@
-# Software development and training best practices.
+# Computational Infrastructure for Geodynamics (CIG) Best Practices
 
 * [Software Development Best Practices](SoftwareDevelopmentBestPractices.md)
 
@@ -8,7 +8,11 @@
 
 * [Contributing Software Checklist](ContributingChecklist.md)
 
-  *Checklist for developers considering contributing code to CIG.*
+  *Checklist for developers considering contributing software to CIG.*
+
+* [Software Repository Template](https://github.com/geodynamics/software_template)
+
+  *A template repository that follows our [software development best practices](SoftwareDevelopmentBestPractices.md).*
 
 * [Training Best Practices](TrainingBestPractices.md)
 
@@ -16,10 +20,10 @@
 
 * [Zenodo Best Practices](ZenodoBestPractices.md)
 
-  *Best practices for obtaining a DOI from zenodo*
+  *Best practices for obtaining a DOI from [Zenodo](https://zenodo.org/).*
 
-* CIG Software Manual Template
+* [Software Manual Template](software_manual_template/)
 
-  The folder software_manual_template contains the .tex files to create a user manual for your software package.
+  *The .tex files to create a user manual for your software package.
   Content guidelines are incorporated into the template.
-  Use [overleaf](www.overleaf.com) to create a shareable, online document.
+  Use [Overleaf](www.overleaf.com) to create a shareable, online document.*
