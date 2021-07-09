@@ -98,3 +98,7 @@ Some other useful checklists:
 	https://joss.readthedocs.io/en/latest/review_checklist.html
 * EURISE  
 	https://fair-software.nl/recommendations/checklist
+* Software Citation Checklist for Developers:
+  [10.5281/zenodo.3482769](https://zenodo.org/record/3482769#.YOdSGBNKhqs)
+* Software Citation Checklist for Authors:
+  [10.5281/zenodo.3479199](https://zenodo.org/record/3479199#.YOdR1RNKhqs)
