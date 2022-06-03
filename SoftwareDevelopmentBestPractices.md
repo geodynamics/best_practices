@@ -62,6 +62,7 @@ This document has three parts:
     3. Output all configuration and build options during runtime (e.g. commit id, compiler options, checksum) to facilitate reproducibility.
 4. **Testing**
     1. Code includes pass/fail tests that verify it runs properly.
+    2. Development pipeline uses continuous integration (CI) to automate running tests.
 5. **Documentation**
     1. User documentation: workflow for research use.
     2. Developer documentation: description of how to extend code in anticipated ways.
