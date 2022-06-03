@@ -97,6 +97,7 @@ This document has three parts:
 4. **Testing**
     1. Pass/fail unit testing for code verification at a fine grain level.
     2. Method of Manufactured Solutions for code verification at a coarse grain level.
+	3. Use code coverage tools (for example, python-coverage and gcov) to assess gaps in test coverage.
 5. **Documentation**
   Standard Best Practices plus
     1. Guidelines on parameter scales/combinations for which code is designed/tested.
