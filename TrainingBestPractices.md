@@ -16,6 +16,8 @@ Each tutorial should begin by defining the goals, topics, and learning objective
 * Obstacles encountered in progressing along the learning curve.
 * Common problems encountered by users.
 
+Make your presentation equal access. Practice Universal design: https://www.washington.edu/doit/equal-access-universal-design-your-presentation
+
 ### Preparation (for participants)
 
 Instructors should describe what participants need to know or do in advance of the tutorial (prerequisites). Examples: 
