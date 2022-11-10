@@ -1,6 +1,6 @@
 # Contributing Software
 
-CIG welcomes contributions of modeling codes in geophysics that meet our software best practices (https://geodynamics.org/cig/dev/best-practices/). Software best practices aid your project in becoming discoverable and reusable. Best practices help you increase the impact of your work and get appropriate credit. By sharing your software, you make science more reproducible, and contribute to a growing software ecosystem. Additionally, following best practices allows you to direct more effort towards feature rich code while increasing your userbase. CIG provides support and resources for projects that have been accepted as CIG software.
+CIG welcomes contributions of modeling codes in geophysics that meet our [software best practices](https://geodynamics.org/software/software-bp). Software best practices aid your project in becoming discoverable and reusable. Best practices help you increase the impact of your work and get appropriate credit. By sharing your software, you make science more reproducible, and contribute to a growing software ecosystem. Additionally, following best practices allows you to direct more effort towards feature rich code while increasing your userbase. CIG provides support and resources for projects that have been accepted as CIG software.
 
 The Checklist below, is meant as a guide to prepare your software for CIG review.
 
