@@ -5,7 +5,7 @@
 This document has three parts:
 * **Minimum best practices** are the minimum standards that all codes hosted by or distributed by CIG are expected to meet.
 * **Standard best practices** are the suite of standards CIG-supported codes should be following. If the codes fall short of these standards, they should have a plan of active development to achieve this level.
-* **Target best practices** should be considered in the development plan for CIG-supported codes under active development. 
+* **Target best practices** should be considered in the development plan for CIG-supported codes under active development.
 
 
 ## Minimum Best Practices
@@ -22,12 +22,13 @@ This document has three parts:
     1. Code includes tests to verify that it runs properly.
     2. Results of accuracy and/or performance benchmarks if established by the research community.
 5. **Documentation**
-    1. Instructions for building and installing the code.
-    2. Description of all parameters including units (if dimensionless, specify scaling used).
-    3. Explanation of physics the code simulates.
-    4. Illustration of how to use the code to solve scientific problems.
-    5. Cookbook examples with sample, editable input files.
-    6. Documentation is provided online or offline.
+    1. Describe the research problem the software is designed to address. Discuss any limitations.
+    2. Instructions for building and installing the code.
+    3. Description of all parameters including units (if dimensionless, specify scaling used).
+    4. Explanation of physics the code simulates.
+    5. Illustration of how to use the code to solve scientific problems.
+    6. Cookbook examples with sample, editable input files.
+    7. Documentation is provided online or offline.
 6. **Citable publication**
 
 ## Standard Best Practices
@@ -35,7 +36,7 @@ This document has three parts:
 *Practices in addition to the Minimum Best Practices that should be used by all codes developed within the CIG community. Codes not meeting all standards should be actively working to eliminate deficiencies.*
 
 1. **Version control**
-    1. Differentiation between maintenance (bug fixes) and new development. 
+    1. Differentiation between maintenance (bug fixes) and new development.
     2. Source tree limited to files necessary to build software and documentation and run small verification tests.
 2. **Coding**
     1. User-friendly specification of parameters (e.g., graphical user interfaces, human readable parameter files) outside of source code/specified at run time
