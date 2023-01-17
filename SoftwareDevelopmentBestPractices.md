@@ -5,16 +5,17 @@
 This document has three parts:
 * **Minimum best practices** are the minimum standards that all codes hosted by or distributed by CIG are expected to meet.
 * **Standard best practices** are the suite of standards CIG-supported codes should be following. If the codes fall short of these standards, they should have a plan of active development to achieve this level.
-* **Target best practices** should be considered in the development plan for CIG-supported codes under active development. 
+* **Target best practices** should be considered in the development plan for CIG-supported codes under active development.
 
 
 ## Minimum Best Practices
 *Practices that codes must follow in order to be accepted by CIG.*
 
 1. **Licensing**
-    1. Open source license (list recommendations) GPL, MIT, BSD?
+    1. Use an [OSI](https://opensource.org/licenses) open source license such as GPL, MIT, BSD.
 2. **Version control**
-    1. Use of version control (e.g., subversion, git) to manage code changes
+    1. Use of version control to manage code changes.
+    2. Use a public repository that is accessible without registration, such as GitHub, GitLab.
 3. **Portability, configuration, and building**
     1. Code builds on Unix-like machines (Linux, Darwin) with free tools (compilers)
     2. Well designed, portable build system (e.g. cmake, make, configure-unix only, setup.py, etc.)
@@ -28,14 +29,18 @@ This document has three parts:
     4. Illustration of how to use the code to solve scientific problems.
     5. Cookbook examples with sample, editable input files.
     6. Documentation is provided online or offline.
-6. **Citable publication**
+6. **Citation*
+    1. A citable publication.
+    2. A persistent identifier to an archived version of the software.
+7. **Support**
+    1. Clearly indicate if the software is actively supported and if so, how to report issues and get help.
 
 ## Standard Best Practices
 
 *Practices in addition to the Minimum Best Practices that should be used by all codes developed within the CIG community. Codes not meeting all standards should be actively working to eliminate deficiencies.*
 
 1. **Version control**
-    1. Differentiation between maintenance (bug fixes) and new development. 
+    1. Differentiation between maintenance (bug fixes) and new development.
     2. Source tree limited to files necessary to build software and documentation and run small verification tests.
 2. **Coding**
     1. User-friendly specification of parameters (e.g., graphical user interfaces, human readable parameter files) outside of source code/specified at run time
