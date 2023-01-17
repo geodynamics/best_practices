@@ -8,7 +8,7 @@
 
 * [Contributing Software Checklist](ContributingChecklist.md)
 
-  *Checklist for developers considering contributing software to CIG.*
+  *Checklist for developers considering contributing software to the CIG community.*
 
 * [Software Repository Template](https://github.com/geodynamics/software_template)
 

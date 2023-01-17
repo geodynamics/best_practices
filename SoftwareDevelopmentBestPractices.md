@@ -23,17 +23,19 @@ This document has three parts:
     1. Code includes tests to verify that it runs properly.
     2. Results of accuracy and/or performance benchmarks if established by the research community.
 5. **Documentation**
-    1. Instructions for building and installing the code.
-    2. Description of all parameters including units (if dimensionless, specify scaling used).
-    3. Explanation of physics the code simulates.
-    4. Illustration of how to use the code to solve scientific problems.
-    5. Cookbook examples with sample, editable input files.
-    6. Documentation is provided online or offline.
+    1. Describe the research problem the software is designed to address. Discuss any limitations.
+    2. Instructions for building and installing the code.
+    3. Description of all parameters including units (if dimensionless, specify scaling used).
+    4. Explanation of physics the code simulates.
+    5. Illustration of how to use the code to solve scientific problems.
+    6. Cookbook examples with sample, editable input files.
+    7. Documentation is provided online or offline.
 6. **Citation*
     1. A citable publication.
     2. A persistent identifier to an archived version of the software.
 7. **Support**
     1. Clearly indicate if the software is actively supported and if so, how to report issues and get help.
+
 
 ## Standard Best Practices
 
