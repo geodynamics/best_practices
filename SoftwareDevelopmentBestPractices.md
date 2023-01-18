@@ -12,9 +12,10 @@ This document has three parts:
 *Practices that codes must follow in order to be accepted by CIG.*
 
 1. **Licensing**
-    1. Open source license (list recommendations) GPL, MIT, BSD?
+    1. Use an [OSI](https://opensource.org/licenses) open source license such as GPL, MIT, BSD.
 2. **Version control**
-    1. Use of version control (e.g., subversion, git) to manage code changes
+    1. Use of version control to manage code changes.
+    2. Use a public repository that is accessible without registration, such as GitHub, GitLab.
 3. **Portability, configuration, and building**
     1. Code builds on Unix-like machines (Linux, Darwin) with free tools (compilers)
     2. Well designed, portable build system (e.g. cmake, make, configure-unix only, setup.py, etc.)
@@ -29,7 +30,12 @@ This document has three parts:
     5. Illustration of how to use the code to solve scientific problems.
     6. Cookbook examples with sample, editable input files.
     7. Documentation is provided online or offline.
-6. **Citable publication**
+6. **Citation*
+    1. A citable publication.
+    2. A persistent identifier to an archived version of the software.
+7. **Support**
+    1. Clearly indicate if the software is actively supported and if so, how to report issues and get help.
+
 
 ## Standard Best Practices
 
