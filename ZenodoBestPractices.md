@@ -90,7 +90,7 @@ Please use the following guidelines when assigning metadata.
 5. **Funding**
    * Choose from pick list of funding agencies to add funding acknowledgements. NSF grants are now supported. If your grant is not listed, add it in *Additional Notes*. See 2.
 6. **Related/alternate identifiers**
-   * Add geodynamics.org/software/*CodeName* as _references this upload_.
+   * Add geodynamics.org/resources/*CodeName* as _references this upload_.
    * Add the github repo e.g. https://github.com/geodynamics/aspect/tree/v1.5.0 as _is a supplement to this upload_.
 7. **Contributors**
    * Please don't forget to acknowledge others who contributed to this research product.
