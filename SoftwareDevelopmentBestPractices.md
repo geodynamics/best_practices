@@ -86,7 +86,7 @@ This document has three parts:
 
 1. **Version control**
     1. New features added in separate branches.
-    2. Stable development (master) branches for rapid release of new features.
+    2. Stable development (main) branches for rapid release of new features.
 2. **Coding**
   Standard Best Practices plus
     1. Functionality implemented as a library rather than an application
