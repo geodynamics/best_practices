@@ -1,6 +1,7 @@
 # Computational Infrastructure for Geodynamics (CIG) Best Practices
 
 * [Software Development Best Practices](SoftwareDevelopmentBestPractices.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10855227.svg)](https://zenodo.org/doi/10.5281/zenodo.10855227)
 
   *Minimum, Standard, and Target best practices related to development of scientific software.*
 
