@@ -18,7 +18,7 @@ A sample repository that demonstrates these best practices can be found in the C
    1. Use an Open Source Initiative [https://opensource.org/license](https://opensource.org/license) open source license.
        <details>
        <summary>Examples</summary>
-       * GPL, MIT, BSD
+       GPL, MIT, BSD
        </details>
    
 2. **Version control**
