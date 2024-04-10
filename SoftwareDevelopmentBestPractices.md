@@ -167,7 +167,7 @@ A sample repository that demonstrates these best practices can be found in the C
 4. **Testing**
     1. Provide pass/fail unit testing for software verification at a fine grain level.
     2. Use the Method of Manufactured Solutions for software verification at a coarse grain level.
-	3. Use code coverage tools to assess gaps in test coverage.
+    3. Use code coverage tools to assess gaps in test coverage.
        <details>
            <summary>Examples</summary>
            python-coverage and gcov 
