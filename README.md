@@ -19,7 +19,7 @@
      Does your project fulfill these requirements? Consider [contributing](https://geodynamics.org/software/software-contribute) your software to the CIG community.  Questions? Need help? [Contact us](https://geodynamics.org/support/ticket/new).
 
   * [Software Repository Template](https://github.com/geodynamics/software_template). 
-    Copy this repository to your own account to begin followiing best practices at the start of your project.
+    Copy this repository to your own account to begin following best practices at the start of your project.
 
 
 * [Training Best Practices](TrainingBestPractices.md)
