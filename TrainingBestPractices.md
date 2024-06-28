@@ -94,6 +94,10 @@ Instructors should describe what participants need to know or do in advance of t
 
 
 ### Specific activities, with days
+Every hackathon, and indeed every project that runs hackathons has their own style. What works and what doesn't depends on the concrete group of people, how well they know each other, and the prior knowledge of participants. 
+
+The following is a sample schedule for a 9-10 day hackathon that includes both experienced developers as well as people with little knowledge of either the code, or of how the project as a whole works. The overarching consideration in this schedule is to ensure that every participant is productive both with regard to their own goals, but also with regard to the project's goals as a whole. In the best of cases, inexperienced developers feel motivated and encouraged to contribute to the project following the hackathon. An important component of this goal is to ensure that participants form *personal* connections with developers, and that nobody "falls through the cracks".
+
 * *Day 1, morning:* Start with everyone introducing themselves and what their goals are for the hackathon.
   Identify experienced developers who can mentor others. This fosters more exchange among the participants by letting them know who to ask (other than the primary developers) in case of questions.
 * *Day 1, afternoon:* Provide a brief introduction to git, github, …, how to submit patches, and how the patch review process will work.
@@ -101,7 +105,7 @@ Instructors should describe what participants need to know or do in advance of t
   - Remove deprecated code or functions
   - Write a test for the kind of model they want to run, or the kind of feature they want to implement; ensure that the output matches expectations
   - Have a list of "starter projects" identified on github via tags.
-* *Day 2, afternoon:* Icebreaker -- sit in pairs for five minutes and talk about anything (with pen and paper). Prompts can be given. Then regroup and each person tells the group three things that they find most interesting/curious about the other person.
+* *Day 2, afternoon:* Icebreaker or other activities that ensure *personal* connections between newcomers and experienced developers. This can mean that people sit in pairs for five minutes and talk about anything (with pen and paper). Prompts can be given. Then regroup and each person tells the group three things that they find most interesting/curious about the other person. Or it could be a game night, or group activities.
 * *Days 3, 6, last:* Remind everyone of the hackathon report during morning rounds.
 * *Day 3, before morning rounds:* Identify who has not submitted a pull request, assign a principal developer to make sure the participant does not fall through the cracks.
 * *Day 3, morning:* Have a "speed dating round" where each participant gets to talk for 5-10 minutes with one or two principal developers. The goal should be to make sure participants know how to break down their project into manageable tasks.
